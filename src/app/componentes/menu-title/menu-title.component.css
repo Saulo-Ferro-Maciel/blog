@@ -5,8 +5,9 @@
     height: 40vh;
     margin-top: 5px;
     margin-bottom: 12px;
-    background-color: navajowhite;
+    background-color: none;
 }
 .title > img {
     max-width: 88%; max-height: 88%;
+    opacity: 0.85;
 }
