@@ -9,5 +9,6 @@
 }
 .title > img {
     max-width: 88%; max-height: 88%;
-    opacity: 0.85;
+    opacity: 0.88;
+    padding: auto;
 }
