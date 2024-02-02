@@ -1,6 +1,4 @@
 .container__articles {
-    padding: 20px;
     display: flex;
     flex-direction: row;
-    align-items: center;
   }
