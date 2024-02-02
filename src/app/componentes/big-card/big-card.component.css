@@ -9,6 +9,8 @@
 .big-card__photo > img {
     width: 100%;
     min-width: 400px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
 }
 
 .big-card__title > h1 {
