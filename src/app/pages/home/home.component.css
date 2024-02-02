@@ -1,4 +1,10 @@
 .container__articles {
     display: flex;
     flex-direction: row;
-  }
+}
+
+.centralizador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
