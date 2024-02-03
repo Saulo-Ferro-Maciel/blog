@@ -2,14 +2,14 @@
     width: 500px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
     justify-content: flex-start;
 }
 
 .small-card__photo > img {
     width: 150px; height: 100px;
     max-width: 500px;
-
+    opacity: 0.97;
     border-top-left-radius: 6%; border-bottom-left-radius: 6%;
 }
 
@@ -30,4 +30,10 @@
     opacity: 0.5;
     font-size: 10px;
     font-family: 'Hind Siliguri';
+}
+
+hr {
+    opacity: 0.4;
+    margin-bottom: 8px;
+    color: gray;
 }
