@@ -24,3 +24,10 @@
     font-size: 12px;
     font-family: 'Hind Siliguri';
 }
+
+.small-card__title > .topicos {
+    margin-left: 8px;
+    opacity: 0.5;
+    font-size: 10px;
+    font-family: 'Hind Siliguri';
+}
