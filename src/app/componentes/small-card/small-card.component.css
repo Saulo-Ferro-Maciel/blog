@@ -1,0 +1,26 @@
+.container__small-card {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+}
+
+.small-card__photo > img {
+    width: 150px; height: 100px;
+    max-width: 500px;
+
+    border-top-left-radius: 6%; border-bottom-left-radius: 6%;
+}
+
+.small-card__title > h1 {
+    margin-left: 8px;
+    font-size: 25px;
+}
+
+.small-card__title > p {
+    margin-left: 8px;
+    opacity: 0.5;
+    font-size: 12px;
+    font-family: 'Hind Siliguri';
+}
