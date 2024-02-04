@@ -8,3 +8,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.container__projects {
+    display: flex;
+    flex-direction: column;
+}
