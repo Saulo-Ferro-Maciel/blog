@@ -5,6 +5,10 @@
     font-family: "Kumbh Sans";
 }
 
+p {
+    margin-right: 8px;
+}
+
 .menu > hr {
     opacity: 0.45;
     color: gray;
@@ -13,7 +17,6 @@
 
 .container__menu {
     align-items: center;
-    justify-content: flex-start;
     flex-direction: row;
     display: flex;
 }
@@ -22,16 +25,21 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
 }
 
 .avatar__saulo > img {
     margin-right: 5px;
     border-radius: 50%;
-    width: 15%;
+    width: 6%;
 }
 
 .link__avatar {
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.menu__pages {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 300px ;
 }
