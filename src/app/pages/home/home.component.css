@@ -1,6 +1,7 @@
 .container__articles {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .centralizador {
@@ -13,4 +14,20 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.maisArtigos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 5px;
+    font-size: 17px;
+    color: gray;
+    font-family: "Ubuntu Condensed";
+}
+
+.maisArtigos:hover {
+    color: #65b029;
+    font-size: 18px;
 }
