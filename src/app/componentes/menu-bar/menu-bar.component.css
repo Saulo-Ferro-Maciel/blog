@@ -3,10 +3,15 @@
     margin-top: 1px;
     font-size: 14px;
     font-family: "Kumbh Sans";
+    cursor:default;
 }
 
 p {
     margin-right: 8px;
+}
+
+a {
+    cursor: pointer;
 }
 
 .menu {
@@ -30,10 +35,15 @@ p {
     width: 100px;
 }
 
+.avatar__saulo > *{
+    cursor: pointer;
+}
+
 .avatar__saulo > img {
     margin-right: 5px;
     border-radius: 50%;
     width: 40%;
+    cursor: pointer;
 }
 
 .link__avatar {
@@ -54,4 +64,8 @@ p {
 
 a:hover {
     color: #65b029;
+}
+
+.photo__avatar {
+    transition: opacity 1s;
 }

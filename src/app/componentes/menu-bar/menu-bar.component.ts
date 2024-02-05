@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { interval } from 'rxjs';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
