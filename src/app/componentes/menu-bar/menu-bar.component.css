@@ -9,20 +9,19 @@ p {
     margin-right: 8px;
 }
 
-.menu > hr {
-    opacity: 0.45;
-    color: gray;
-    margin-top: 5px;
-}
-
-
-.container__menu {
-    margin-left: 10%;
-    margin-right: 10%;
-    flex-direction: row;
+.menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+    
+.container__menu {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
+
 
 .avatar__saulo {
     flex-direction: row;
@@ -38,19 +37,21 @@ p {
 }
 
 .link__avatar {
-    margin-left: 15%;
-    margin-right: 13%;
+    margin-right: 11%;
 }
 
 .menu__pages {
     flex-direction: row;
     display: flex;
-    width: 900px;
+    width: 500px;
 }
 
 .menu__pages > .texto {
-    margin-top: 2%;
+    margin-top: 1%;
     flex-direction: row;
     display: flex;
-    font-size: 22px;
+}
+
+a:hover {
+    color: #65b029;
 }
