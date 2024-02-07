@@ -1,0 +1,19 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.centralizador {
+    margin-left: 4%; margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+}
+
+p {
+    margin-top: 5px; margin-bottom: 8px;
+    font-family: "Signika Negative";  
+    font-size: 18px;
+    opacity: 0.6;  
+}

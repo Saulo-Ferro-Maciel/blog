@@ -1,0 +1,21 @@
+.container__projects {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+   /* background-color: aqua;*/
+    margin-left: 3%; margin-right: 3%;
+}
+
+.centralizador {
+    display: flex;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+    width: 118vh;
+}
+
+h2 {
+    opacity: 0.8;
+    /*background-color: blueviolet;*/
+    height: 50px;
+}
