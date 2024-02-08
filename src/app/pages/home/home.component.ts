@@ -3,7 +3,6 @@ import { MenuTitleComponent } from "../../componentes/menu-title/menu-title.comp
 import { MenuBarComponent } from "../../componentes/menu-bar/menu-bar.component";
 import { BigCardComponent } from "../../componentes/big-card/big-card.component";
 import { SmallCardComponent } from "../../componentes/small-card/small-card.component";
-import { ProjetosBackendComponent } from "../../componentes/projetos-backend/projetos-backend.component";
 import { FooterRodapeComponent } from "../../componentes/footer-rodape/footer-rodape.component";
 import { CarouselComponent } from "../../componentes/carousel/carousel.component";
 
@@ -12,7 +11,7 @@ import { CarouselComponent } from "../../componentes/carousel/carousel.component
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [MenuTitleComponent, MenuBarComponent, BigCardComponent, SmallCardComponent, ProjetosBackendComponent, FooterRodapeComponent, CarouselComponent]
+    imports: [MenuTitleComponent, MenuBarComponent, BigCardComponent, SmallCardComponent, FooterRodapeComponent, CarouselComponent]
 })
 export class HomeComponent {
 
