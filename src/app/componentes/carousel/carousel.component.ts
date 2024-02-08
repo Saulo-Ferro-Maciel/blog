@@ -14,6 +14,8 @@ export class CarouselComponent {
   slides = [
     {img: "./assets/foto2.jpg"},
     {img: "./assets/imagem_de_test.png"},
+    {img: "./assets/foto2.jpg"},
+    {img: "./assets/imagem_de_test.png"},
     {img: "./assets/foto2.jpg"}
   ];
 

@@ -1,3 +1,13 @@
+.centralizador {
+    display: flex;
+    justify-content: center;
+    margin-right: 3%; margin-left: 3%;
+}
+
+.conatiner__carousel {
+    margin-bottom: 5%;
+}
+
 .slick-prev::before, .slick-next::before {
     color: #65b029 !important;
 }
@@ -7,6 +17,18 @@
     margin-right: auto;
     height: 250px;
     width: 250px;
+}
+
+.carousel {
+    width: 95%;
+}
+
+h2 {
+    opacity: 0.8;
+    margin-top: 2%;
+    height: 50px;
+    align-items: center;
+    display: flex; justify-content: center;
 }
 
 @media (max-width: 992){
