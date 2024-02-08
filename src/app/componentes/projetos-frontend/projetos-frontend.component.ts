@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { CarouselComponent } from "../carousel/carousel.component";
 
 
 @Component({
@@ -6,7 +7,7 @@ import { Component} from '@angular/core';
     standalone: true,
     templateUrl: './projetos-frontend.component.html',
     styleUrl: './projetos-frontend.component.css',
-    imports: []
+    imports: [CarouselComponent]
 })
 export class ProjetosFrontendComponent {
 
