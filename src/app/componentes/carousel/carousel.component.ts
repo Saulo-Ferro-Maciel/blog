@@ -12,11 +12,11 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 export class CarouselComponent {
 
   slides = [
-    {img: "./assets/foto2.jpg"},
-    {img: "./assets/imagem_de_test.png"},
-    {img: "./assets/foto2.jpg"},
-    {img: "./assets/imagem_de_test.png"},
-    {img: "./assets/foto2.jpg"}
+    {img: "./assets/projetocapivarapassword.jpg"},
+    {img: "./assets/projetodigipedia.jpg"},
+    {img: "./assets/projetopurangaara.jpg"},
+    {img: "./assets/projetolinkencutado.jpg"},
+    {img: "./assets/projetopokedex.jpg"}
   ];
 
   slideConfig = {
@@ -26,6 +26,7 @@ export class CarouselComponent {
     "autoplaySpeed": 5000,
     "pauseOnHover": true,
     "infinite": true,
+    "dots":true,
     "responsive": [
       {
         "breakpoint":992,
@@ -33,7 +34,9 @@ export class CarouselComponent {
           "arrows": true,
           "infinite":true,
           "slidesToShow":3,
-          "slidesToScroll":3
+          "slidesToScroll":3,
+          fade: true,
+          cssEase: 'linear'
         }
       },
       {
@@ -42,7 +45,9 @@ export class CarouselComponent {
           "arrows": true,
           "infinite":true,
           "slidesToShow":1,
-          "slidesToScroll":1
+          "slidesToScroll":1,
+          fade: true,
+          cssEase: 'linear'
         }
       }
     ]
