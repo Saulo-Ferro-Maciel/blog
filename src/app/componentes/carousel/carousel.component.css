@@ -32,16 +32,30 @@ h2 {
 }
 
 p {
-    opacity: 0.9;
+    opacity: 0.6;
     align-items: center;
     display: flex; justify-content: center;
-    margin-bottom: 1%;
-    color: gray;
-}
+    margin-bottom: 1.5%;
+    color: whitesmoke;
 
-@media (max-width: 992){
+    font-family: "Ubuntu Condensed";
+    font-size: 18px;
+}
+  
+
+@media (min-width: 200){
     .img-style {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        height: 230px;
+        width: 230px;
+    }
+
+    .carousel {
+        width: 80%;
+    }
+
+    .conatiner__carousel {
+        margin-right: 5%; margin-left: 5%;
     }
 }
