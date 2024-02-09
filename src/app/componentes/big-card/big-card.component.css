@@ -24,42 +24,27 @@
     color: rgb(155, 152, 152);
 }
 
-@media (max-width: 499px) {
+@media (min-width:1000px) and (min-height: 740px){
     .container__big-card {
-        flex-direction: column;
-        margin-right: 0;
-        align-items: center;
-        justify-content: center;
-
-        width: 30px;height: 350px;
-        margin-left: 49%; margin-right: 10%;
-    }
-
-    .big-card__photo {
-        width: 2%; height: 2%;
-        min-width: 0;
-
-        opacity: 0;
+        width: 500px;
+        height: 370px;
     }
 }
 
 @media (min-width: 500px) {
-    .container__articles {
-        flex-direction: row;
-    }
-    .container__articles > * {
-        padding-bottom: 0;
+    .container__big-card {
+        width: 400px;
+        height: 370px;
     }
 }
 
-@media (min-width: 100px) and (min-height: 900px) {
-    .container__articles {
-        flex-direction: column;
-    }
-    .container__articles > * {
-        padding-bottom: 10px;
-    }
-    .article__main {
-        margin-bottom: 15px;
+@media (min-width: 200px) {
+    .container__big-card {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8%;
+        width: 500px;
+        height: 370px;
     }
 }
