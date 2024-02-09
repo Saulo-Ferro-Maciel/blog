@@ -35,7 +35,6 @@
 @media (max-width: 499px) {
     .container__articles {
         flex-direction: column;
-        justify-content: center;
     }
     .container__articles > * {
         padding-bottom: 10px;
