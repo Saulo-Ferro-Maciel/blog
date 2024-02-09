@@ -12,10 +12,10 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 export class CarouselComponent {
 
   slides = [
-    {img: "./assets/projetocapivarapassword.jpg"},
     {img: "./assets/projetodigipedia.jpg"},
     {img: "./assets/projetopurangaara.jpg"},
     {img: "./assets/projetolinkencutado.jpg"},
+    {img: "./assets/projetocapivarapassword.jpg"},
     {img: "./assets/projetopokedex.jpg"}
   ];
 
