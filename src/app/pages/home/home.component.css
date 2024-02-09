@@ -31,3 +31,9 @@
     color: #65b029;
     font-size: 18px;
 }
+
+@media (min-width: 500) {
+    .container__articles {
+        flex-direction: column;
+    }
+}
