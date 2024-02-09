@@ -17,7 +17,8 @@ export class CarouselComponent {
     {img: "./assets/projetolinkencutado.jpg"},
     {img: "./assets/projetocapivarapassword.jpg"},
     {img: "./assets/projetopokedex.jpg"},
-    {img: "./assets/anama.jpg"}
+    {img: "./assets/anama.jpg"},
+    {img: "./assets/projetosepong.png"}
   ];
 
   slideConfig = {
