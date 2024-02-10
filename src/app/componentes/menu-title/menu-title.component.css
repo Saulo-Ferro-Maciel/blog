@@ -1,14 +1,54 @@
 .title {
     align-items: center;
-    display: flex; 
-    justify-content: center; 
-    height: 40vh;
+    display: flex;
+    justify-content: center;
+    height: 19vh;
     margin-top: 5px;
     margin-bottom: 12px;
-    background-color: none;
 }
+
 .title > img {
-    max-width: 80%; max-height: 80%;
+    max-width: 80%;
+    max-height: 80%;
     opacity: 0.68;
     padding: auto;
+}
+
+@media (min-width: 1024px) and (min-height: 1366px) {
+    .title > img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 1000px) {
+    .title > img {
+        width: 40%;
+        height: auto;
+    }
+    .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) and (min-height: 999px) {
+    .title {
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+}
+
+@media (min-width: 500px) and (max-height: 999px) {
+    .title {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        height: 8%;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
 }
