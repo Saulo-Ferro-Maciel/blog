@@ -43,9 +43,18 @@ p {
 }
   
 
-@media (min-width: 834px) and (max-width: 1112px) and (min-height: 834px) and (max-height: 1112px) {
+@media (min-width: 834px) and (max-width: 1112px){
     .img-style {
-        width: 210px;
+        width: 225px;
+        height: auto;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+
+@media (min-width: 834px) and (max-height: 1112px){
+    .img-style {
+        width: 225px;
         height: auto;
         margin-left: 7%;
         margin-right: 7%;
@@ -54,7 +63,7 @@ p {
 
 @media (min-width: 1024px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1366px) {
     .img-style {
-        width: 220px;
+        width: 230px;
         height: auto;
         margin-left: 6%;
         margin-right: 6%;
