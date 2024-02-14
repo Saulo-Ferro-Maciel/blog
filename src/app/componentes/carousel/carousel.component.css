@@ -43,19 +43,20 @@ p {
 }
   
 
-@media (min-width: 500){
+@media (min-width: 834px) and (max-width: 1112px) and (min-height: 834px) and (max-height: 1112px) {
     .img-style {
-        margin-left: 3px !important;
-        margin-right: 3px !important;
-        height: 230px;
-        width: 230px;
+        width: 210px;
+        height: auto;
+        margin-left: 7%;
+        margin-right: 7%;
     }
+}
 
-    .carousel {
-        width: 70%;
-    }
-
-    .conatiner__carousel {
-        margin-right: 15%; margin-left: 15%;
+@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1366px) {
+    .img-style {
+        width: 220px;
+        height: auto;
+        margin-left: 6%;
+        margin-right: 6%;
     }
 }
