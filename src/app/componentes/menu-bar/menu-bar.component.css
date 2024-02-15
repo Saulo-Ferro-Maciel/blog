@@ -90,11 +90,15 @@ a:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width:200px) and (max-width: 500px) {
     .link__avatar {
         margin-right: 50%;
-        margin-left: 85%;
+        margin-left: 50%;
     } 
+
+    .texto > p, .texto > .sepa {
+        display: none;
+    }
 
     .texto2 > p > a {
         background-color: #242424;
