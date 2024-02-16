@@ -99,7 +99,7 @@ a:hover {
 
 @media (min-width:200px) and (max-width: 500px) {
     .link__avatar {
-        margin-right: 50%;
+        margin-right: 52%;
         margin-left: 50%;
     } 
     .avatar__saulo > .photo__avatar, .avatar__saulo > p {
@@ -108,7 +108,7 @@ a:hover {
 
     .avatar__saulo > .photo__avatar2 {
         display: flex;
-        opacity: 0.87;
+        opacity: 0.67;
     }
 
     .texto > p, .texto > .sepa {
