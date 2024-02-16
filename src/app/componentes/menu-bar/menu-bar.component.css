@@ -51,6 +51,13 @@ a {
     cursor: pointer;
 }
 
+.avatar__saulo > .photo__avatar2 {
+    border-radius: 0%;
+    width: 110%;
+    height: auto;
+    display: none;
+}
+
 .link__avatar {
     margin-right: 11%;
 }
@@ -95,6 +102,14 @@ a:hover {
         margin-right: 50%;
         margin-left: 50%;
     } 
+    .avatar__saulo > .photo__avatar, .avatar__saulo > p {
+        display: none;
+    }
+
+    .avatar__saulo > .photo__avatar2 {
+        display: flex;
+        opacity: 0.87;
+    }
 
     .texto > p, .texto > .sepa {
         display: none;
