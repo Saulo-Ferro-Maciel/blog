@@ -95,6 +95,10 @@ a:hover {
     .texto2 {
         display: none;
     }
+
+    .avatar__saulo > .photo__avatar2 {
+        display: none;
+    }
 }
 
 @media (min-width:200px) and (max-width: 500px) {
@@ -102,17 +106,17 @@ a:hover {
         margin-right: 52%;
         margin-left: 50%;
     } 
-    .avatar__saulo > .photo__avatar, .avatar__saulo > p {
+
+    .avatar__saulo > .photo__avatar, 
+    .avatar__saulo > p,
+    .texto > p, 
+    .texto > .sepa  {
         display: none;
     }
 
     .avatar__saulo > .photo__avatar2 {
         display: flex;
         opacity: 0.67;
-    }
-
-    .texto > p, .texto > .sepa {
-        display: none;
     }
 
     .texto2 > p > a {
