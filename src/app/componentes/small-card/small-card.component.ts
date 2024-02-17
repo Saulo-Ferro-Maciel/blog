@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './small-card.component.css'
 })
 export class SmallCardComponent {
-
+  
+  photoCover:string = ""
+  cardTitle:string = ""
+  cardTopic:string = ""
+  cardDate:string = ""
 }

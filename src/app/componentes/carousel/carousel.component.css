@@ -1,3 +1,6 @@
+* {
+    background-color: #242424;
+}
 .centralizador {
     display: flex;
     justify-content: center;
@@ -6,6 +9,7 @@
 
 .conatiner__carousel {
     margin-bottom: 4%;
+    background-color: #242424;
 }
 
  .slick-prev::before,  .slick-next::before {
