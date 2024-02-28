@@ -40,6 +40,13 @@
     }
 }
 
+@media (max-width: 500px) {
+    .container__big-card {
+        align-items: center;
+        width: 95%; /* Modifiquei a largura para 90% para garantir que se ajuste corretamente em dispositivos móveis */
+        max-width: 500px; /* Adicionei um valor máximo para evitar estouro do layout */
+    }
+}
 @media (max-width: 499px) {
     .container__big-card {
         align-items: center;
@@ -47,4 +54,5 @@
         max-width: 500px; /* Adicionei um valor máximo para evitar estouro do layout */
     }
 }
+
 

@@ -87,7 +87,7 @@ a:hover {
     flex-direction: row;
 }
 
-@media (min-width:529px) {
+@media (min-width:521px) {
     .container__menu {
         height: 50%;
     }
@@ -101,7 +101,7 @@ a:hover {
     }
 }
 
-@media (min-width:200px) and (max-width: 500px) {
+@media (min-width:200px) and (max-width: 520px) {
     .link__avatar {
         margin-right: 52%;
         margin-left: 50%;

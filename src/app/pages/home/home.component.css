@@ -33,7 +33,7 @@
 }
 
 /* Media queries */
-@media (max-width: 499px) {
+@media (max-width: 519px)  {
     .container__articles {
         display: flex;
         flex-direction: column;
@@ -54,7 +54,8 @@
     }
 }
 
-@media (min-width: 500px) {
+
+@media (min-width: 530px) {
     .container__articles {
         flex-direction: row;
     }
