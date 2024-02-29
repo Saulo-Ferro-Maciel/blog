@@ -2,14 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 87vh;
     text-align: left; 
     flex-direction: column;
   }
   
-  .container > .imagem {
-    width: 30%;
+.container > .imagem {
+    width: 20%;
     border-radius: 50%;
     margin-bottom: 0.5%;
-  }
+}
+
+@media (max-width: 500px) {
+    .container > .imagem {
+      width: 60%;
+      margin-bottom: 0.9%;
+    }
+    
+    .container {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 500.1px) {
+    .container > .imagem {
+      width: 20%;
+      margin-bottom: 0.5%;
+    }
+
+    .container {
+        height: 87vh;
+    }
+}
   
