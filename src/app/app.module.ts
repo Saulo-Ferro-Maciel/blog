@@ -10,10 +10,10 @@ import { AbouteMeComponent } from './pages/aboute-me/aboute-me.component';
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    ProjectsComponent,
-    ArticlesComponent,
-    AbouteMeComponent
+   // HomeComponent,
+   // ProjectsComponent,
+    //ArticlesComponent,
+    //AbouteMeComponent
   ],
   imports: [
     BrowserModule,
