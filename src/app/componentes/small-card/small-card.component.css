@@ -41,6 +41,11 @@ hr {
     color: gray;
 }
 
+.container__small-card:hover p {
+  color: #70ca27;
+  opacity: 0.8;
+}
+
 @media (max-width: 500px) {
     .container__small-card {
         width: 90%;

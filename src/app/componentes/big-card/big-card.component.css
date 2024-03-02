@@ -52,6 +52,7 @@
         align-items: center;
         width: 80%; /* Modifiquei a largura para 90% para garantir que se ajuste corretamente em dispositivos móveis */
         max-width: 500px; /* Adicionei um valor máximo para evitar estouro do layout */
+        margin-bottom: -2.9%;
     }
 }
 @media (max-width: 499px) {
