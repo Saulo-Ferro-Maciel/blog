@@ -7,13 +7,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ArticlesComponent } from './pages/articles/articles.component';
 import { AbouteMeComponent } from './pages/aboute-me/aboute-me.component';
+import { MenuBarComponent } from './componentes/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
    // HomeComponent,
    // ProjectsComponent,
     //ArticlesComponent,
-    //AbouteMeComponent
+    //AbouteMeComponent,
+    //MenuBarComponent
   ],
   imports: [
     BrowserModule,

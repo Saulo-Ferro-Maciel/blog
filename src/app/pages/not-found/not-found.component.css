@@ -15,12 +15,12 @@
 
 @media (max-width: 500px) {
     .container > .imagem {
-      width: 60%;
+      width: 55%;
       margin-bottom: 0.9%;
     }
     
     .container {
-        height: 50vh;
+        height: 58vh;
     }
 }
 
