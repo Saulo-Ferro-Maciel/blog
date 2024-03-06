@@ -1,0 +1,88 @@
+.container--about-me {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 3.5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container--about-me > .box {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    padding: auto;
+    margin: 0;
+}
+
+.container--about-me > .box > .photo_avatar {
+    border-radius: 25%;
+    width: 24%;
+    height: 74%;
+    margin-right: 2%;
+}
+
+.container--about-me > .box > .apresentacao h2 {
+    opacity: 0.75;
+    margin-bottom: 2%;
+    font-family: "Ubuntu Condensed";
+}
+
+.container--about-me > .box > .apresentacao p {
+    opacity: 0.9;
+    margin-bottom: 9%;
+}
+
+.container--about-me > .social--midia {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.container--about-me > .social--midia h2 {
+    font-family: "Ubuntu Condensed";
+    opacity: 0.75;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.container--about-me > .social--midia > .centralizador > .botoes {
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    margin-left: 2%;
+}
+
+.container--about-me > .social--midia > .centralizador > .botoes a {
+    flex: 1 0 50%;
+    background: none;
+    font-size: 120%;
+}
+
+.container--about-me > .social--midia > .centralizador > .botoes a:hover,
+.container--about-me > .social--midia > .centralizador > .botoes span:hover {
+    transform: scale(1.1);
+    color: #70ca27;
+}
+
+@media screen and (min-width: 1000px) {
+    .container--about-me > .box > .photo_avatar {
+        width: 20%;
+    }   
+
+    .container--about-me > .box {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .container--about-me > .social--midia > .centralizador > .botoes a {
+        font-size: 108%;
+        margin-bottom: 5.5%;
+    }
+}
+
+
+
