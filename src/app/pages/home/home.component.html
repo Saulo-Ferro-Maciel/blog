@@ -11,25 +11,29 @@
         </div>
         <div class="article__others">
             <app-small-card
-            photoCover="../assets/imagem_de_test.png"
-            cardDate="24/02/24"
-            cardTitle="Qual será a nova linguagem do momento?"
-            cardTopic="progrmação - artigos técnicos"
-            ></app-small-card>
-            
-            <app-small-card
-            photoCover="../assets/imagem_de_test.png"
-            cardDate="24/02/24"
-            cardTitle="Qual será a nova linguagem do momento?"
-            cardTopic="progrmação - artigos técnicos"
+                photoCover="'../assets/imagem_de_teste.png'"
+                cardDate="24/02/24"
+                cardTitle="Qual será a nova linguagem do momento?"
+                cardTopic="programação - artigos técnicos"
+                [showPhotoCover]="true"
             ></app-small-card>
 
             <app-small-card
-            photoCover="../assets/imagem_de_test.png"
-            cardDate="24/02/24"
-            cardTitle="Qual será a nova linguagem do momento?"
-            cardTopic="progrmação - artigos técnicos"
+                [photoCover]="'../assets/imagem_de_teste.png'"
+                cardDate="24/02/24"
+                cardTitle="Qual será a nova linguagem do momento?"
+                cardTopic="programação - artigos técnicos"
+                [showPhotoCover]="true"
             ></app-small-card>
+
+            <app-small-card
+                [photoCover]="'../assets/imagem_de_teste.png'"
+                cardDate="24/02/24"
+                cardTitle="Qual será a nova linguagem do momento?"
+                cardTopic="programação - artigos técnicos"
+                [showPhotoCover]="true"
+            ></app-small-card>
+            
             <a href="#" class="maisArtigos">ver outros artigos ...</a>
         </div>
     </div>
