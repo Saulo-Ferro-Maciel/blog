@@ -1,10 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-small-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
@@ -14,5 +13,5 @@ export class SmallCardComponent {
   @Input() cardTitle:string = "" ;
   @Input() cardTopic:string = "" ;
   @Input() cardDate:string = "" ;
-  @Input() showPhotoCover: boolean = true;
+  
 }
