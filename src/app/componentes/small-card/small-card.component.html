@@ -1,13 +1,14 @@
 <a href="#">
     <div class="container__small-card">
-        <div class="small-card__photo">
-            <img src="{{photoCover}}" alt="" >
+        <div class="small-card__photo" *ngIf="photoCover !== ''">
+            <img [src]="photoCover" alt="">
         </div>
         <div class="small-card__title">
             <p>{{cardDate}}</p>
-            <h1>{{cardTitle}}</h1>
-            <p class="topicos"> {{cardTopic}}</p>
+            <h1 [style.font-size]="titleSize">{{cardTitle}}</h1>
+            <p class="topicos">{{cardTopic}}</p>
         </div>
     </div>
     <hr>
 </a>
+
